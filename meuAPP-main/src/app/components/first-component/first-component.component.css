@@ -1,0 +1,11 @@
+.cabecalho {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cabecalho p {
+  font-size: 2rem;
+  color: #6BD1FF;
+}
