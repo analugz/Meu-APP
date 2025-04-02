@@ -1,0 +1,4 @@
+<p *ngIf="status === 'sucesso'; else erroTemplate">Operação bem-sucedida!</p>
+<ng-template #erroTemplate>
+  <p>Houve um erro na operação.</p>
+</ng-template>
